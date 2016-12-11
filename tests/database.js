@@ -95,7 +95,6 @@ describe('Database', function() {
             var dbNow = new Date(+result[0].now);
             var dbLater = new Date(+result[0].later);
             var now = new Date();
-            debugger;
             return done();
           });
         });
